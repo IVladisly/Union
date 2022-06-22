@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gotham';
+	font-weight: 300;
+	box-sizing: border-box;
+	
+	
+}
+
+:root {
+	--color-white: #ffffff;
+	--color-black: #091245;
+	--color-red: #D02F44;
+	--color-redLight: #E3828F;
+	--color-bluelight: #1E74EC;
+	--color-blueDark: #012C88;
+	--color-blue100: #03115F;
+	--color-blue80: #35417F;
+	--color-blue20: #cdcfdf;
+	--color-blue10: #E6E8EF;
+	--color-pink100: #79077B;
+	--color-pink80: #A960AB;
+	--color-gray100: #535670;
+	--color-gray80: #75788D;
+	--color-gray60: #989AA9;
+	--color-gray20: #DDDDE2;
+	--color-gray10: #EEEFF1;
+}
+.content-title {
+	font-size: calc(26px + 28 * (100vw / 1440));
+	line-height: 68px;
+	color: var(--color-blue100);
+	font-weight: 700;
+}
+.content-text {
+	font-size: calc(10px + 6 * (100vw / 1440));
+	color: var(--color-gray100);
+	font-weight: 325;
+	line-height: 22px;
+}
+.content-top-subtitle {
+	font-size: calc(13px + 6 * (100vw / 1440));
+	margin-bottom: .5rem;
+	width: 70%;
+	color: var(--color-blue80);
+}
+.content-subtitle {
+	margin-top: 1.5rem;
+	color: var(--color-blue80);
+	font-size: calc(13px + 8 * (100vw / 1440));
+}

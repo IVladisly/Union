@@ -46,11 +46,48 @@ body {
 .content-top-subtitle {
 	font-size: calc(13px + 6 * (100vw / 1440));
 	margin-bottom: .5rem;
-	width: 70%;
 	color: var(--color-blue80);
+	text-align: left;
 }
 .content-subtitle {
 	margin-top: 1.5rem;
 	color: var(--color-blue80);
 	font-size: calc(13px + 8 * (100vw / 1440));
+}
+
+
+
+@media (min-width: 1440px) {
+	.content-title {
+		font-size: 70px;
+	}
+	.content-subtitle {
+		font-size: 24px;
+	}
+}
+@media (max-width: 1200px) {
+	.content-title {
+	}
+	.content-subtitle {
+		margin-top: 1rem;
+	}
+}
+@media (max-width: 940px) {
+	.content-subtitle {
+		margin-top: .8rem;
+	}
+}
+@media (max-width: 844px) {
+	.content-title {
+		font-size: 1.9rem;
+		line-height: 32px;
+	}
+	.content-subtitle {
+		margin-top: .6rem;
+	}
+}
+@media (max-width: 544px) {
+	.content-subtitle {
+		margin-top: .6rem;
+	}
 }

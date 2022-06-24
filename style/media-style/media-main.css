@@ -410,6 +410,7 @@
 	.client__item {
 		flex-basis: 50%;
 		margin: 2rem 0;
+		padding: 0;
 	}
 }
 @media (max-width: 744px) {
@@ -504,7 +505,6 @@
 		font-size: .8rem; 
 	}
 	.client__item {
-		flex-basis: 100%;
 		padding: 0 1rem;
 	}
 }
